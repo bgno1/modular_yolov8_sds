@@ -30,5 +30,5 @@ The **YAML configuration files** for the YOLOv8 models presented in the paper ca
    ```
    
    This ensures that these modules defined in the YAML configuration files are correctly converted to PyTorch models. 
-3. The **CBAM** module is already integrated into the official YOLOv8 framework. You can reference it directly in the YAML configuration without additional code changes. 
+3. The **CBAM** module is already integrated into the official YOLOv8 framework and can be referenced directly in the YAML configuration without additional code changes.
 4. YAML configuration files that support the ablation experiments in the paper, incorporating the **GAM**, **CBAM**, and **SwinTransformer** modules, are provided in the `cfgs` folder. These files can be used for training and evaluating models by following the standard instructions provided in the YOLOv8 documentation.
